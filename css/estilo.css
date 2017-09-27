@@ -1,0 +1,202 @@
+
+
+body{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    bbackground-color: #000000;
+    background-image: url("https://www.transparenttextures.com/patterns/tileable-wood-colored.png");
+
+}
+
+.segundo , .terceiro , footer {
+    text-align: center;
+    margin: 0 auto;
+    border-top: 2px solid darkred;
+    max-width: 950px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.texto {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.texto-1{
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.texto p{
+    font-size: 18px;
+}
+
+@media screen and (max-width: 768px){
+    .texto p{
+        padding-left: 20px;
+    }
+}
+
+.container{
+    position: relative;
+    align-items: center;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.cta{
+    background-size: cover;
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+.img-smart{
+    width: auto;
+    height: 400px;
+}
+
+
+.img-smart2{
+    width: auto;
+    height: 150px;
+}
+
+@media screen and (max-width: 768px){
+    .img-smart2{
+        padding-left: 20px;
+    }
+}
+
+.img-smart3{
+    width: auto;
+    height: 60px;
+}
+
+.img-smart4{
+    width: auto;
+    height: 60px;
+}
+
+.img{
+    width: auto;
+    height: 50px;
+}
+
+.cta-form{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.cta-form input[type="email"]{
+    width: 20%;
+    height: 30px;
+    padding-left: 10px;
+    margin-bottom: 7px;
+}
+
+@media screen and (max-width: 768px){
+    .cta-form input[type="email"]{
+        width: 80%;
+        padding-left: 30px;
+    }
+}
+
+.cta-form input[type="submit"]{
+    background-color: #c1392b;
+    border: 0;
+    padding: 10px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.cta-form input[type="submit"]:hover{
+    background-color: navy;
+}
+
+.cta-conteudo p{
+    text-align: center;
+    padding-bottom: 5px;
+    font-style: italic;
+}
+
+.cta-conteudo-img{
+   position: absolute;
+   top: 190px;
+   left: 500px;
+   width: 120px;
+   height: auto;
+}
+
+.container2{
+    text-align: center;
+}
+
+
+.container-itens{
+    display: flex;
+    max-width: 800px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 768px){
+    .container-itens{
+        display: block;
+        max-width: 100%;
+        width: 100%;
+    }
+}
+
+.container-itens2{
+    max-width: 800px;
+    text-align: justify;
+    width: 80%;
+}
+
+@media screen and (max-width: 768px){
+    .container-itens2{
+        max-width: 100%;
+        width: 100%;
+    }
+}
+
+.container-itens2 h4{
+    text-align: center;
+}
+
+ 
+h4, p{
+    margin: 20px;
+}
+
+.terceiro{
+    text-align: center;
+    padding-top: 30px;
+    border-top: 2px solid darkred;
+}
+
+footer{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+
+
+@media screen and (max-width: 768px){
+    .app{
+        padding-left: 15px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .img-logo{
+        padding-bottom: 35px;
+    }
+}
